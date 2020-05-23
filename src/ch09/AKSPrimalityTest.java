@@ -3,10 +3,6 @@ package ch09;
 import java.util.Scanner;
 
 public class AKSPrimalityTest {
-  package javaresponsi13;
-import java.util.Scanner;
-
-public class AKSPrimalityTest {
 public static long k[] = new long[1000];
     public static void koefesien(int bil){
         k[0] = 1;
@@ -25,9 +21,9 @@ public static long k[] = new long[1000];
         return a < 0;
     }
     public static void main (String args []){
-       Scanner masukan = new Scanner (System.in);
+       Scanner input = new Scanner (System.in);
        System.out.println("Masukkan sebuah Bilangan : ");
-              int bil = masukan.nextInt();
+              int bil = input.nextInt();
        boolean prima = true;
        
        //penggunaan for loop
